@@ -5,7 +5,7 @@
  - [Júlio Pedrosa](https://github.com/japm94)
 
 # Description
- ![Image](https://github.com/ahlp/catalog-service/blob/master/csd-base-description.jpg)
+ ![Image](/images/Screen Shot 2018-07-11 at 16.22.41.png)
  - [Tech Report](https://github.com/ahlp/catalog-service/blob/master/doc/Tech_Report.pdf)
 ## Hygieia UI
  - A UI (Interface do usuário) é o front-end do Hygieia e contém todos os elementos da interface gráfica do usuário (GUI) para exibição pelos usuários. É aqui que os usuários também podem configurar o painel.
