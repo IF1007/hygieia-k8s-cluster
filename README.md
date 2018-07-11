@@ -1,17 +1,30 @@
 # hygieia-k8s-cluster
+  Hygieia Dashboard Clusterized on Kubernetes
 
-This repository is the near-simplest example of deploying an provisioning a web server on Amazon Web Services (AWS), using [Terraform](https://www.terraform.io/) and [Ansible](http://docs.ansible.com/ansible/).
-- P.S.: It is incomplete. Just working OpenVPN. You will need execute manually. Before you will need edit vars.tf with your credencials and keys. After that follow the steps bellow:
-```sh
-git clone
-cd terrAS
-./deploy.sh
-```
+# Mainteners
+ - [Júlio Pedrosa](https://github.com/japm94)
 
-## Setup
+# Description
+ ![Image](https://github.com/ahlp/catalog-service/blob/master/csd-base-description.jpg)
+ - [Tech Report](https://github.com/ahlp/catalog-service/blob/master/doc/Tech_Report.pdf)
+## Hygieia UI
+ - A UI (Interface do usuário) é o front-end do Hygieia e contém todos os elementos da interface gráfica do usuário (GUI) para exibição pelos usuários. É aqui que os usuários também podem configurar o painel.
+## Hygieia API
+ - A Hygieia API contêm todos os serviços típicos da API REST que funcionam com os dados do sistema de origem (coletados por tarefas de serviço) e a Internet. As APIs de auditoria da Hygieia são uma coleção de terminais da API que servem para auditar dados de CI / CD coletados pelos coletores da Hygieia. 
+## k8s PODS
+ - Collectors (Coletores e/ou plugins) e demais microserviços implantados em PODs
+## Persistence
+ - Persistence Volume Claim, onde é feito mount para o armazenamento do MongoDB
+## DevOps Tools
+ - Essa camada envolve a grande quantidade de ferramentas de DevOps em um pipeline de CI / CD. No diagrama, Phabricator, Jenkins, Sonar e Nexus são listados como exemplos.
+ 
+# Deploy
 
-1. Connect to Kubernetes cluster (AWS, GCP, etc.)
-2. ./deploy-kubernetes
-```sh
-./deploy.sh
-```
+## How To
+    
+    cd hygieia-k8s/
+    kubectl create -f ./
+
+# Dependencies
+ - https://www.docker.com/
+ - https://kubernetes.io/
