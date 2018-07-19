@@ -5,8 +5,8 @@
  - [Júlio Pedrosa](https://github.com/japm94)
 
 # Description
- ![Image](https://github.com/japm94/hygieia-k8s-cluster/blob/master/images/Screen%20Shot%202018-07-11%20at%2016.22.41.png)
- - [Tech Report](https://github.com/japm94/hygieia-k8s-cluster/blob/master/tech-report/Hygieia%20Dashboard%20Clustered%20-%20Tech%20report.pdf)
+ ![Image](https://github.com/IF007/hygieia-k8s-cluster/blob/master/images/Screen%20Shot%202018-07-11%20at%2016.22.41.png)
+ - [Tech Report](https://github.com/IF1007/hygieia-k8s-cluster/blob/master/tech-report/Hygieia%20Dashboard%20Clustered%20-%20Tech%20report.pdf)
 ## Hygieia UI
  - A UI (Interface do usuário) é o front-end do Hygieia e contém todos os elementos da interface gráfica do usuário (GUI) para exibição pelos usuários. É aqui que os usuários também podem configurar o painel.
 ## Hygieia API
